@@ -1,6 +1,6 @@
 # README file
 
-The scripts in this repository are designed to evaluate the performance of the research detailed in [*Quantile and Expectile Copula-Based Hidden Markov Regression Models for the Analysis of the Cryptocurrency Market* by Foroni, Merlo, and Petrella (2024)](https://doi.org/10.48550/arXiv.2307.06400). This evaluation includes a simulation study of copula-based quantile and expectile Hidden Markov Models (CQHMM and CEHMM) and an application of these models to a dataset of financial returns.
+The scripts in this repository are designed to evaluate the performance of the research detailed in [*Quantile and Expectile Copula-Based Hidden Markov Regression Models for the Analysis of the Cryptocurrency Market* by Foroni, Merlo, and Petrella (2024)](https://journals.sagepub.com/doi/10.1177/1471082X241279513). This evaluation includes a simulation study of copula-based quantile and expectile Hidden Markov Models (CQHMM and CEHMM) and an application of these models to a dataset of financial returns.
 
 
 ## Prerequisites
@@ -167,3 +167,11 @@ The script `Figures_out.R` generates the followings:
 - Figure S3: QQ plots of standardized residuals.
 - Figure S2: Cryptocurrencies daily normalized prices and log return series.
 - Figure 1: Time series of returns for the five cryptocurrencies colored according to the two-state fitted models.
+
+------------------------------------------------------------------------
+
+
+# How to cite these materials
+If you use this code in your research, please cite the original paper:
+
+> Foroni B, Merlo L, Petrella L. Quantile and expectile copula-based hidden Markov regression models for the analysis of the cryptocurrency market. Statistical Modelling. 2024;25(5):454-472. doi:10.1177/1471082X241279513
